@@ -1,0 +1,412 @@
+.container{
+  padding: 50px 100px;
+
+}
+
+
+nav {
+  justify-content: center;
+  padding: 16px 6px;
+  height: 7 0px;
+  gap: 80px;
+}
+.fake-img {
+  width: 120px;
+}
+
+nav ul {
+  font-size: 17px;
+  column-gap: 20px;
+}
+nav span p {
+  font-size: 13px;
+}
+nav span h1 {
+  font-size: 20px;
+}
+
+/*                                           2                 */
+
+#solar {
+  top: 76px;
+  height: 390px;
+  /* padding: 80px; */
+}
+#solar div {
+  width: 429px;
+  height: 305px;
+  gap: 16px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+}
+#solar p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.call-btn {
+  width: 120px;
+  height: 32px;
+  padding: 5px 18px;
+  font-size: 12px;
+}
+.request-btn {
+  width: 144px;
+  height: 32px;
+  border-radius: 109px;
+  padding: 5px 18px;
+  font-size: 12px;
+}
+
+/*//////////////                              3                       ///////////////////*/
+
+#friendlest {
+  /* padding: 50px 100px; */
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+}
+.friendlest-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 494px;
+  height: 270px;
+  gap: 10px;
+}
+.friendlest-left h1 {
+  font-size: 24px;
+}
+.friendlest-left p {
+  /* text-align: center; */
+  font-size: 14px;
+  color: #475467;
+}
+.friendlest-left ul {
+  row-gap: 12px;
+}
+.friendlest-left ul li {
+  font-size: 14px;
+}
+.friendlest-left ul li::before {
+  font-size: 14px;
+}
+.des1 {
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 230px;
+}
+.friendlest-right .des2 {
+  width: 130px;
+  top: 170px;
+  right: 400px;
+}
+
+/*                                    4                                                  */
+
+#power {
+  top: 86px;
+  height: 150px;
+  padding: 110px 100px;
+}
+
+#power div {
+  width: 390px;
+
+  gap: 10px;
+}
+
+#power .heading {
+  font-size: 30px;
+}
+#power p {
+  font-size: 16px;
+}
+#power button {
+  width: 113px;
+  font-size: 12px;
+}
+
+/*                                       5                                           */
+
+#solar-kit {
+  width: 530px;
+  /* padding: 40px 0px; */
+}
+.solar-kit-top {
+  text-align: left;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  row-gap: 12px;
+  margin-bottom: 20px;
+}
+.light-p {
+  font-size: 12px;
+}
+.solar-kit-card {
+  width: 340px;
+  height: 388px;
+}
+.solar-kit-card img {
+  width: 100%;
+}
+
+.solar-kit-card div {
+  padding: 15px;
+  row-gap: 18px;
+}
+
+.cards-container {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(340px, 1fr));
+  column-gap: 12px;
+  row-gap: 20px;
+}
+
+/* //////////////////                 6                      /////////////////////////////////////// */
+
+#repairs {
+  height: 100px;
+  padding: 130px ;
+  
+}
+
+#repairs div {
+  width: 498px;
+  padding: 18px;
+  row-gap: 15px;
+}
+#repairs p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* ////////////////////////////////////     7                ////////////////////////// */
+#energy {
+  /* padding: 50px 100px; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.energy-left {
+  width: 100%;
+}
+.energy-left p {
+  font-size: 12px;
+}
+.energy-left .heading {
+  font-size: 26px;
+  font-weight: bold;
+}
+.energy-right {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr)); /* Responsive columns */
+  grid-column-gap: 54px;
+  grid-row-gap: 10px;
+  padding: 2px;
+}
+.grid-item {
+  padding: 10px;
+}
+
+.icon span {
+  width: 59px;
+  height: 57px;
+  padding: 9px;
+  border-radius: 12px;
+}
+
+.energy-item {
+  width: 265.67px;
+  padding: 16px;
+  row-gap: 10px;
+}
+.energy-item h1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.energy-item p {
+  font-size: 12px;
+  line-height: 18px;
+}
+.img {
+  width: 100%;
+  height: 76px;
+  padding: 10px;
+}
+
+/* /////////////////////////           8    /////////////////////////////////////////*/
+
+/*  */
+.values-top {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.values-bottom {
+  padding: 20px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr)); /* Responsive columns */
+  grid-row-gap: 15px;
+  grid-column-gap: 60px;
+}
+.val-i {
+  font-size: 42px;
+  color: #0b9586;
+}
+
+/* /////////////////                9               ///////////////// */
+#woc {
+  /* padding: 50px 100px; */
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.woc-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.woc-left i {
+  color: #0b9586;
+  font-size: 28px;
+}
+
+.woc-right {
+  width: 100%;
+  background-color: #3cab900f;
+  padding: 20px;
+  border-radius: 24px;
+  display: grid;
+  gap: 20px;
+}
+.woc-right .top {
+  display: grid;
+  gap: 20px;
+}
+.woc-right p {
+  color: #101828;
+  font-size: 12px;
+}
+.woc-right .top .what {
+  font-size: 12px;
+  font-weight: 500;
+}
+.is {
+  color: #4b5353be;
+  font-size: 6px;
+  display: flex;
+  column-gap: 12px;
+}
+.woc-right .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.next-prev {
+  font-size: 7px;
+  font-weight: 100;
+}
+
+#next {
+  font-size: 18px;
+  width: 37px;
+  height: 35px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+footer {
+  padding: 50px 50px;
+  background-color: #283646;
+  font-size: 10px;
+}
+
+#footer-top {
+  display: flex;
+  justify-content:center;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+#left-foot-top ul {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+#right-foot-top input {
+  background-color: #ffffff17;
+  border: 1px solid #b3bdc7;
+  border-radius: 38px;
+  height: 28px;
+  width: 206px;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+#right-foot-top input::placeholder {
+  font-size: 12px;  
+}
+
+#right-foot-top button {
+  width: 77px;
+  height: 28px;
+  text-align: center;
+  border-radius: 38px;
+  color: white;
+  position: absolute;
+  right: 290px;
+  font-size: 10px;
+  top: 24px;
+}
+
+.hr-footer {
+  border: 0px;
+  height: 1px;
+  background-color: #71777d;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #92989f;
+}
+#footer-bottom ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+#footer-bottom ul li::after {
+  content: "|";
+  margin-left: 15px;
+}
